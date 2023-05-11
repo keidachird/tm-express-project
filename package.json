@@ -1,0 +1,25 @@
+{
+  "name": "tm-express-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keidachird/tm-express-project.git"
+  },
+  "author": "Denys Turchyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keidachird/tm-express-project/issues"
+  },
+  "homepage": "https://github.com/keidachird/tm-express-project#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
