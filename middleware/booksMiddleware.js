@@ -3,10 +3,10 @@ const createError = require('http-errors')
 const books = require('../data/books')
 
 const bookExists = (req, res, next) => {
-  const { id } = req.params
-  const book = books.find(book => book.id === Number(id))
+  const { bookId } = req.params
+  const book = books.find(book => book.id === Number(bookId))
 
-  if (!book) next(createError(404, `Book with id = ${id} does not exist`))
+  if (!book) next(createError(404, `Book with id = ${bookId} does not exist`))
 
   req.book = book
   next()
